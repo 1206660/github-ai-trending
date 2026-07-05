@@ -1,7 +1,7 @@
 # GitHub AI Trending 每日分析
 
 ![Last Update](https://img.shields.io/badge/last%20update-2026--07--05-blue)
-![Total Reports](https://img.shields.io/badge/reports-35%2B-brightgreen)
+![Total Reports](https://img.shields.io/badge/reports-31-brightgreen)
 
 **每日 GitHub Trending 热门项目追踪与分析。** 本仓库由 AI 助手自动维护，每天从 GitHub Trending 抓取热门前端项目，进行深入分析和洞察。
 
@@ -23,16 +23,6 @@ INDEX.md           # 月度索引（按日期、项目、分类检索）
 - ⏰ **时间**：每天 09:00（北京时间）自动抓取
 - 📝 **内容**：Top 10+ 增长项目分析
 - 🤖 **来源**：通过 Hermes Agent + `github-trending-analysis` 技能自动生成
-
-## 对比参考项目 [bonfy/github-trending](https://github.com/bonfy/github-trending)
-
-| 维度 | bonfy/github-trending | 本仓库 |
-|:----|:--------------------|:-------|
-| 内容深度 | 仅列出项目名和描述 | **每项目深入分析**（用途、优势、增长原因、风险） |
-| 目录结构 | 按年/平铺文件 | **按年/月分层**，支持长期扩展 |
-| 分析维度 | 无，纯爬虫 | **AI 生成深度洞察**，趋势总结 |
-| 索引 | 无 | **INDEX.md** 月度总览 |
-| 更新频率 | 天然滞后 | **每日 09:00 自动同步** |
 
 ## 许可
 
